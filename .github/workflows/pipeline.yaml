@@ -28,7 +28,3 @@ jobs:
           pip install pytest
           pytest
 
-
-New-Item -Path ".github\workflows" -ItemType Directory -Force
-Move-Item .github\workflow\pipeline.yaml .github\workflows\pipeline.yaml
-Remove-Item .github\workflow
